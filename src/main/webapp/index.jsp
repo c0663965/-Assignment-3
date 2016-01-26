@@ -15,6 +15,6 @@
     </head>
     <body>
         <h1>Hello World!</h1>
-        <%=DBSample.getTable()%>
+        <%=DBsample.getTable()%>
     </body>
 </html>

@@ -16,11 +16,11 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    
-        <h1>Hello Hello World!</h1>
-        
-         <%DBsample.createTable();%>
-         <%DBsample.insertData();%>
-         <%=DBsample.getTable()%>
-    
+
+    <h1>Hello Hello World!</h1>
+
+    <%DBsample.createTable();
+      DBsample.insertData();%>
+      <%=DBsample.getTable()%>
+
 </html>

@@ -90,7 +90,7 @@ public class DBsample {
             ResultSet rs=stmt.executeQuery("SELECT * FROM "+ table_name);
             
             while(rs.next()){
-                output+="<h1>"+rs.getString("id")+rs.getString("first")+rs.getString("sex")+rs.getString("age")+"</h1>";
+                output+="<h1>"+rs.getString("id")+" "+rs.getString("first")+" "+rs.getString("sex")+" "+rs.getString("age")+" </h1>";
             }
             
             conn.close();

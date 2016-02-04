@@ -19,8 +19,8 @@
     
         <h1>Hello Hello World!</h1>
         
-         <%=DBsample.createTable()%>
-         <%=DBsample.insertData()%>
+         <%DBsample.createTable();%>
+         <%DBsample.insertData();%>
          <%=DBsample.getTable()%>
     
 </html>

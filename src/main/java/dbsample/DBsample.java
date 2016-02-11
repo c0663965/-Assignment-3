@@ -72,6 +72,7 @@ public class DBsample {
                                                               "(2, 'Lee', 'Male',88)," +
                                                               "(3, 'Gagan', 'Male',77)," +
                                                               "(4, 'Elohor', 'Female',66)"+
+                                                              "(5, 'Gurir', 'Male',100)");
                                                               "(5, 'Gurirfdasfdsaf', 'Male',100)");
             conn.close();
         }

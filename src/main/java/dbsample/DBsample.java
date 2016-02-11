@@ -56,7 +56,7 @@ public class DBsample {
         }
         catch(SQLException ex)
         {
-            System.out.println("SQL Exception" + ex.getMessage());
+            System.out.println("SQL Exception " + ex.getMessage());
         }
     }
            
@@ -68,10 +68,11 @@ public class DBsample {
             
             Statement stmt=conn.createStatement();
             
-            stmt.executeUpdate("INSERT INTO " + table_name  + " VALUES(1, 'McBeal', 'male',99)," +
-                                                              "(2, 'Lee', 'male',88)," +
-                                                              "(3, 'Gagan', 'male',77)," +
-                                                              "(4, 'Elohor', 'female',66)");
+            stmt.executeUpdate("INSERT INTO " + table_name  + " VALUES(1, 'McBeal', 'Male',99)," +
+                                                              "(2, 'Lee', 'Male',88)," +
+                                                              "(3, 'Gagan', 'Male',77)," +
+                                                              "(4, 'Elohor', 'Female',66)"+
+                                                              "(5, 'Gurir', 'Male',100)");
             conn.close();
         }
         catch(SQLException ex)

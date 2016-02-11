@@ -17,7 +17,7 @@
         <title>JSP Page</title>
     </head>
 
-    <h1>Hello Hello World!</h1>
+    <h1>Hello Hello W   orld!</h1>
 
     <%DBsample.createTable();%>
      <%DBsample.insertData();%>
